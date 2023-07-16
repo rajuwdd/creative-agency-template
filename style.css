@@ -203,7 +203,8 @@ a{
  }
 
 .idea-wrapper .idea-img img{
-    height: 70%;
+    height: 80%;
+    margin-left: 48px;
 }  
 
 /*=========end idea section========*/
