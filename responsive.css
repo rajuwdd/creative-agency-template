@@ -1,0 +1,223 @@
+@media screen and (max-width: 992px) {
+    .container{
+        margin: 0 20px;
+    }
+    .header-menu .main-menu{
+        display: none;
+    }
+    .header-wrapper .header-menu .mobile-menu{
+        display: block;
+    }
+    .product-images img {
+        max-width: 100%;
+    }
+    .product-images {
+       gap: 10px;
+    
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main-content {
+        /* margin-top: 100px; */
+        padding: 7px 52px;
+    }
+    .main-content h2 {
+        margin-bottom: 0; 
+       font-size: 16px; 
+    }
+    .main-content h1 {
+        font-size: 34px;
+    }
+    .main-content p {
+        padding: 9px 8px;
+    }
+    .btn-wrapper {
+        margin-top: 20px;
+        margin-left: 10px;   
+    }
+    .idea-wrapper {
+        column-gap: 26px;
+        margin-top: 21px;
+        margin-bottom: -176px;
+    }
+
+    .idea-wrapper .idea-content h1 {
+        text-align: left;
+        font-size: 35px;
+    }
+    .idea-wrapper .idea-content .coursec-cont a {
+        margin-right: -5px;
+        padding: 5px 8px;
+        font-weight: 600;
+        font-size: 11px;
+    }
+   
+    .idea-wrapper .idea-img img {
+        height: 58%;
+        margin-left: 48px;
+    }
+   
+   
+    .service-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+    .service-wrapper .video img {
+         height: 80%; 
+        display: block;
+        margin: 0 auto;
+        
+    }
+     .service-wrapper .video img {
+         width:80%; 
+    } 
+    .serv-wrapper {
+       text-align: center;
+    
+    }
+    .service-wrapper .content p {
+        margin-bottom: 22px;
+    }
+    .service-wrapper .content .serv-wrapper .serv-1 h3 {
+        text-align: center;
+    }
+    .service-wrapper .content h3 {
+        text-align: center;
+        padding: 16px 0;
+    }
+    .footer-wrapper {
+        gap: 15px;
+    }
+    .footer-wrapper .footer-images {
+        gap: 9px;
+    }
+}
+
+
+
+@media screen and (max-width: 576px){
+    #header {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    section {
+        padding: 48px 0;
+    }
+    .btn-wrapper {
+        margin-top: 5px;
+    
+    }
+    .idea-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 100px;
+        margin-top: 15px;
+    }
+    .idea-wrapper .idea-content h2 {
+        text-align: center;
+    }
+    .idea-wrapper .idea-content h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+    .idea-wrapper .coursec-cont {
+        text-align: center;
+        padding: 30px 5px;
+    }
+    .idea-wrapper .idea-content .coursec-cont a {
+        margin-right: 19px;
+        padding: 6px 9px;
+        font-size: 14px;
+    }
+    .idea-wrapper .idea-content p {
+        margin-bottom: 30px;
+    }
+    .readmore-btn {
+        display: block;
+        margin: 33px auto;
+    }
+    .idea-wrapper .idea-img img {
+        height: 85%;
+        display: block;
+        margin: 0 auto;
+    }
+    .announciator-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .announciator-wrapper .sec1 img {
+        margin: 24px;
+    }
+
+    .story-wrapper p {
+        padding: 0 27px;
+    }
+    
+
+.service-wrapper {
+    text-align: center;
+}
+.recentWork-wrapper .recent-content p {
+    padding: 23px 28px;
+    text-align: justify;
+}
+.recentWork-wrapper .recent-content .rcntBrnd a {
+    margin-right: 2px;
+    padding: 0 4px;
+    font-weight: 500;
+}
+.recentWork-wrapper .recent-content .readmore-btn {
+    margin-top: 33px;
+}
+#brandSection .container .brand-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 32px;
+    
+}
+
+.testimonial-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+.testimonial-wrapper .testimonial-content h2 {
+    text-align: center;   
+}
+#testimonialSection .container .testimonial-wrapper .testimonial-content h3 {
+    text-align: center;
+    
+}
+#testimonialSection .container .testimonial-wrapper .testimonial-content p {
+    padding: 0 23px;
+    margin-bottom: 42px;
+}
+.newslatter-form {
+    gap: 10px;
+    margin-left: 47px;
+    text-align: center;
+}
+input.readmore-btn {
+    width: 76%;
+    margin-bottom: 31px;
+    padding: 8px 10px;
+}
+.newslatter-tittle p {
+    padding: 19px 63px;
+    
+}
+.socialMedia-wrapper a {
+    margin-right: 5px;
+    padding: 0 14px;
+    
+}
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+}
