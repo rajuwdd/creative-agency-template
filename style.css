@@ -598,7 +598,7 @@ color: #f4f4f4;
     gap: 15px;
 }
 .footer-wrapper footer-images img{
-    height: 100%;
+    width: 100%;
 }
 
 /*====end footer section====*/

@@ -2,22 +2,46 @@
     .container{
         margin: 0 20px;
     }
+    section#header {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main-content {
+        padding: 35px 104px;
+    }
     .header-menu .main-menu{
         display: none;
     }
     .header-wrapper .header-menu .mobile-menu{
         display: block;
     }
-    .product-images img {
-        max-width: 100%;
-    }
+.idea-wrapper .idea-content .coursec-cont a {
+    margin-right: 12px;
+    padding: 0 5px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.idea-wrapper .coursec-cont {
+    text-align: left;
+    padding: 30px 0;
+}
+.idea-content .coursec-cont a.service-btn {padding: 10px 20px;}
+
+.product-images img {
+max-width: 100%;
+}
     .product-images {
        gap: 10px;
-    
     }
+
 }
 
 @media screen and (max-width: 768px){
+    section#ideas {
+        padding-bottom: 0;
+    }
+    
     .main-content {
         /* margin-top: 100px; */
         padding: 7px 52px;
@@ -52,7 +76,10 @@
         font-weight: 600;
         font-size: 11px;
     }
-   
+    .story-wrapper p {
+        padding: 0 145px;
+    }
+
     .idea-wrapper .idea-img img {
         height: 58%;
         margin-left: 48px;
@@ -79,7 +106,18 @@
     }
     .service-wrapper .content p {
         margin-bottom: 22px;
+        text-align: center;
     }
+    .service-wrapper .content h2 {
+        font-size: 37px;
+        text-align: center;
+    }
+
+    .service-wrapper .content h1 {
+        text-align: center;
+    }
+
+
     .service-wrapper .content .serv-wrapper .serv-1 h3 {
         text-align: center;
     }
@@ -93,7 +131,23 @@
     .footer-wrapper .footer-images {
         gap: 9px;
     }
+    .footer-wrapper .footer-images img{
+        max-width: 100%;
+    }
+    .product-images img {
+    max-width: 100%;
 }
+.recentWork-wrapper .recent-content p {
+    padding: 40px 68px;
+    text-align: justify;
+}
+
+#copywright {
+    padding: 12px 0;
+}
+}
+
+
 
 
 
@@ -170,6 +224,10 @@
     padding: 0 4px;
     font-weight: 500;
 }
+
+.product-images img {
+    max-width: 100%;
+}
 .recentWork-wrapper .recent-content .readmore-btn {
     margin-top: 33px;
 }
@@ -220,4 +278,120 @@ input.readmore-btn {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
+.footer-images img {
+    max-width: 100%;
 }
+}
+
+
+
+
+@media screen and (max-width: 480px){
+    .header-wrapper .logo img {
+        width: 72%;
+    }
+
+    .main-content p {
+        padding: 19px 5px;
+        font-size: 14px;
+    }
+    
+    .main-content h1 {
+        font-size: 27px;
+    }
+
+
+    .btn-wrapper .btn-1 {
+        padding: 8px 11px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .btn-wrapper .btn-2 {
+        padding: 8px 11px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .idea-wrapper .idea-content h1 {
+        font-size: 27px;
+    }
+    .idea-wrapper .idea-content .coursec-cont a {
+        margin-right: 0; 
+      
+    }
+    .idea-wrapper .idea-img img {
+        height: 75%;
+    }
+    .service-wrapper .content h2 {
+        font-size: 31px;
+    }
+    .serv-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .service-wrapper .content .serv-wrapper .serv-1 p {
+        text-align: center;
+    }
+    .recentWork-wrapper .recent-content .rcntBrnd a {
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .recentWork-wrapper .recent-content .rcntBrnd a.service-btn {
+        padding: 6px 15px; 
+    }
+    .recentWork-wrapper .recent-content p {
+        font-size: 13px;
+    }
+    .product-images {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* max-height: 100%; */
+        /* justify-content: center;
+        align-items: center;
+        text-align: center; */
+    }
+    .product-images img {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+
+#testimonialSection .container .testimonial-wrapper .testimonial-image img {
+    display: block;
+    margin: 0 auto;
+     padding-left: 0; 
+}
+.form-control {
+font-size: 12px;
+   }
+   input.readmore-btn {
+    margin-left: 2px;
+}
+
+
+   input.readmore-btn {
+    font-size: 11px;
+}
+
+.socialMedia-wrapper a {
+    margin-right: 0px;
+    padding: 0 6px;
+    font-size: 13px;
+}
+.copywright-wrapper p {
+    font-weight: 500;
+    font-size: 13px;
+}
+.footer-wrapper .footer-content {
+    text-align: center;
+}
+
+
+.footer-wrapper .footer-content .ftrcont-1 h4 {
+    text-align: center;
+    font-size: 14px;
+}
+
+}
+
+
