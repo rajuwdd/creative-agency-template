@@ -547,5 +547,13 @@ section#newslatterSection {
      display: block;
     margin: 0 auto;
 }
+.idea-wrapper .idea-content .coursec-cont a {
+    padding: 4px 3px;
+    font-size: 10px;
+}
+.idea-wrapper .idea-img img {
+    max-width: 95%;
+    padding-bottom: 83px;
+}
 
 }
