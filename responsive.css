@@ -391,7 +391,161 @@ font-size: 12px;
     text-align: center;
     font-size: 14px;
 }
+.footer-wrapper .footer-images {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    
+}
+.footer-wrapper .footer-images img{
+    display: block;
+    margin: 0 auto;
+}
+.newslatter-tittle p {
+    padding: 19px 50px;
+    text-align: justify;
+    font-size: 14px;
+}
+section#newslatterSection {
+    padding-bottom: 5px;
+}
+.service-wrapper .video img {
+    height: 100%;
+}
+
+
 
 }
 
 
+@media screen and (max-width: 375px){
+#header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.header-wrapper .logo img {
+        width: 72%;
+    } 
+
+.main-content h1 {
+    font-size: 22px;
+}
+
+.btn-wrapper .btn-1 {
+    font-size: 10px;
+    font-weight: 600;
+}
+.btn-wrapper .btn-2 {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+
+.btn-wrapper button {
+    margin-left: 2px;
+   
+}
+.idea-wrapper .idea-content .coursec-cont a {
+    padding: 4px 6px;
+    font-size: 11px;
+}
+.idea-wrapper .idea-content p {
+    font-size: 13px;
+}
+
+.readmore-btn {
+    padding: 8px 9px;
+    border-radius: 7px;
+    border-bottom: 5px solid #ff5990;
+    display: block;
+    margin: 26px auto;
+}
+.readmore-btn a {
+    font-weight: 600;
+}
+.announciator-wrapper .sec1 p {
+    padding: 10px 53px;
+    text-align: justify;
+}
+.story-wrapper p {
+    padding: 0 24px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.story-wrapper h1 {
+    font-size: 26px;
+}
+
+.story-wrapper h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.service-wrapper .content h1 {
+    font-size: 23px;
+}
+.service-wrapper .content h2 {
+    font-size: 30px;
+}
+.service-wrapper .content p {
+    text-align: justify; 
+    padding: 0 16px;
+}
+.service-wrapper .content .serv-wrapper .serv-1 p {
+    text-align: justify;
+    padding: 0 16px;
+}
+.service-wrapper .video img {
+    height: 100%;
+}
+.recentWork-wrapper .recent-content .rcntBrnd a.service-btn {
+    padding: 5px 9px;
+}
+.recentWork-wrapper .recent-content .rcntBrnd a {
+    font-weight: 600;
+    font-size: 11px;
+}
+#testimonialSection .container .testimonial-wrapper .testimonial-image img {
+    max-width: 100%;
+    
+}
+.newslatter-tittle p {
+    padding: 19px 12px;
+    text-align: justify;
+    font-size: 14px;
+}
+input.readmore-btn {
+    margin-bottom: 27px;
+    padding: 7px 10px;
+}
+input.readmore-btn {
+   border-bottom: 3px solid #a57ee9;
+}
+section#newslatterSection {
+    padding-bottom: 8px;
+}
+.socialMedia-wrapper a {
+    margin-right: -1px;
+    padding: 0px 2px;
+    font-size: 12px;
+}
+#socialMedia {
+    padding: 27px 0;
+}
+.copywright-wrapper p {
+    font-size: 12px;
+}
+
+.footer-wrapper .footer-images {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+}
+
+.footer-wrapper .footer-images img {
+     display: block;
+    margin: 0 auto;
+}
+
+}
