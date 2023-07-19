@@ -63,9 +63,9 @@ max-width: 100%;
     .idea-wrapper {
         column-gap: 26px;
         margin-top: 21px;
-        margin-bottom: -176px;
+        margin-bottom: 87px;
     }
-
+    
     .idea-wrapper .idea-content h1 {
         text-align: left;
         font-size: 35px;
@@ -76,15 +76,14 @@ max-width: 100%;
         font-weight: 600;
         font-size: 11px;
     }
+
+    .idea-wrapper .idea-img img {
+        width: 100%;
+        margin-left: 0;
+    }
     .story-wrapper p {
         padding: 0 145px;
     }
-
-    .idea-wrapper .idea-img img {
-        height: 58%;
-        margin-left: 48px;
-    }
-   
    
     .service-wrapper {
         display: grid;
@@ -318,9 +317,9 @@ input.readmore-btn {
         margin-right: 0; 
       
     }
-    .idea-wrapper .idea-img img {
-        height: 75%;
-    }
+     .idea-wrapper .idea-img img {
+        width: 100%;
+    } 
     .service-wrapper .content h2 {
         font-size: 31px;
     }
@@ -333,7 +332,7 @@ input.readmore-btn {
     }
     .recentWork-wrapper .recent-content .rcntBrnd a {
         font-weight: 600;
-        font-size: 13px;
+        font-size: 12px;
     }
     .recentWork-wrapper .recent-content .rcntBrnd a.service-btn {
         padding: 6px 15px; 
@@ -446,24 +445,35 @@ section#newslatterSection {
     margin-left: 2px;
    
 }
-.idea-wrapper .idea-content .coursec-cont a {
+.idea-wrapper .coursec-cont {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    column-gap: 24px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 27px 23px;
+}
+.idea-content .coursec-cont a .service-btn {
+    padding: 10px 15px;
+}
+
+/* .idea-wrapper .idea-content .coursec-cont a {
     padding: 4px 6px;
     font-size: 11px;
+}
+.idea-wrapper .idea-content .coursec-cont a {
+    padding: 4px 3px;
+    font-size: 10px;
+} */
+.idea-wrapper .idea-img img {
+    max-width: 95%;
+    padding-bottom: 83px;
 }
 .idea-wrapper .idea-content p {
     font-size: 13px;
 }
 
-.readmore-btn {
-    padding: 8px 9px;
-    border-radius: 7px;
-    border-bottom: 5px solid #ff5990;
-    display: block;
-    margin: 26px auto;
-}
-.readmore-btn a {
-    font-weight: 600;
-}
 .announciator-wrapper .sec1 p {
     padding: 10px 53px;
     text-align: justify;
@@ -499,13 +509,24 @@ section#newslatterSection {
 .service-wrapper .video img {
     height: 100%;
 }
-.recentWork-wrapper .recent-content .rcntBrnd a.service-btn {
-    padding: 5px 9px;
+
+.rcntBrnd {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    column-gap: 10px;
+    row-gap: 9px;
+    padding: 13px 26px;
 }
 .recentWork-wrapper .recent-content .rcntBrnd a {
     font-weight: 600;
-    font-size: 11px;
+    font-size: 14px;
 }
+
+
+/* .recentWork-wrapper .recent-content .rcntBrnd a.service-btn {
+    padding: 5px 9px;
+} */
+
 #testimonialSection .container .testimonial-wrapper .testimonial-image img {
     max-width: 100%;
     
@@ -537,23 +558,11 @@ section#newslatterSection {
     font-size: 12px;
 }
 
-.footer-wrapper .footer-images {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 15px;
-}
+
 
 .footer-wrapper .footer-images img {
      display: block;
     margin: 0 auto;
-}
-.idea-wrapper .idea-content .coursec-cont a {
-    padding: 4px 3px;
-    font-size: 10px;
-}
-.idea-wrapper .idea-img img {
-    max-width: 95%;
-    padding-bottom: 83px;
 }
 
 }
